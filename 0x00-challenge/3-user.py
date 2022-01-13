@@ -12,7 +12,6 @@ class User():
     - id: public string unique (uuid)
     - password: private string hash in MD5
     """
-
     __password = None
 
     def __init__(self):
